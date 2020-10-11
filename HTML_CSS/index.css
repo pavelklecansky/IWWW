@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+#menu {
+  background-color: dimgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#menu a {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.button {
+  background-color: dimgray;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  border: 1px solid white;
+}
+
+.pageHeading {
+  font-size: 100px;
+  margin: 0;
+  padding-top: 200px;
+  color: white;
+  text-shadow: 0px 0px 10px black;
+}
+
+#hero {
+  text-align: center;
+  background-image: url("img/karlovy-vary.jpg");
+  height: 500px;
+  background-size: cover;
+}
+
+/*
+ Uživatelská část - blog post
+*/
+
+.blogPostPreview {
+  flex-basis: 300px;
+  border: 1px solid lightgray;
+}
+
+.blogPostPreview > img {
+  width: 300px;
+}
+
+#blogPostList {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.centeredContentWrapper {
+  width: 1000px;
+  margin: auto;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: dimgray;
+  color: white;
+}
+
+.footerHeading {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+footer a {
+  font-size: 16px;
+}

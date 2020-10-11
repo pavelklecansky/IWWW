@@ -5,53 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    #menu {
-      background-color: dimgray;
-      display: flex;
-      justify-content: space-between;
-      padding: 20px;
-    }
-
-    a {
-      color: rgb(255, 255, 255);
-      font-size: 30px;
-      margin-right: 20px;
-    }
-
-    .button {
-      background-color: dimgray;
-      color: white;
-      padding: 20px;
-      width: 200px;
-      border-radius: 5px;
-      font-size: 20px;
-      text-align: center;
-      font-weight: bold;
-      margin: auto;
-      border: 1px solid white;
-    }
-
-    .pageHeading {
-      font-size: 100px;
-      margin: 0;
-      padding-top: 200px;
-      color: white;
-      text-shadow: 0px 0px 10px black;
-    }
-
-    #hero {
-      text-align: center;
-      background-image: url("img/karlovy-vary.jpg");
-      height: 500px;
-      background-size: cover;
-    }
-  </style>
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -69,9 +23,65 @@
   <section id="hero">
     <h1 class="pageHeading">Cestovatelský blog</h1>
     <div class="button">
-      Chci taky cestovat
+      <a href="#">
+        Chci taky cestovat
+      </a>
     </div>
   </section>
+  <section>
+    <div class="centeredContentWrapper">
+      <h2>Poslední články</h2>
+      <div id="blogPostList" class="centeredContentWrapper">
+        <article class="blogPostPreview">
+          <img src="img/filipiny.jpg" alt="Filipíny">
+          <h3>Filipíny</h3>
+        </article>
+        <article class="blogPostPreview">
+          <img src="img/moskva.jpg" alt="Moskva">
+          <h3>Moskva</h3>
+        </article>
+        <article class="blogPostPreview">
+          <img src="img/karlovy-vary.jpg" alt="Karlovy vary">
+          <h3>Karlovy vary</h3>
+        </article>
+      </div>
+    </div>
+
+  </section>
+  <footer>
+    <div>
+      <span class="footerHeading">Nejčtenější články</span>
+      <ul>
+        <li><a href="#">Článk ABCD</a> </li>
+        <li><a href="#">Článk ABCD</a> </li>
+        <li><a href="#">Článk ABCD</a> </li>
+        <li><a href="#">Článk ABCD</a> </li>
+        <li><a href="#">Článk ABCD</a> </li>
+      </ul>
+    </div>
+
+    <div>
+      <span class="footerHeading">Nejčtenější články</span>
+      <ul>
+        <li><a href="#">Článk ABCD</a> </li>
+        <li><a href="#">Článk ABCD</a> </li>
+        <li><a href="#">Článk ABCD</a> </li>
+        <li><a href="#">Článk ABCD</a> </li>
+        <li><a href="#">Článk ABCD</a> </li>
+      </ul>
+    </div>
+    <div>
+      <span class="footerHeading">Nejčtenější články</span>
+      <ul>
+        <li><a href="#">Článk ABCD</a> </li>
+        <li><a href="#">Článk ABCD</a> </li>
+        <li><a href="#">Článk ABCD</a> </li>
+        <li><a href="#">Článk ABCD</a> </li>
+        <li><a href="#">Článk ABCD</a> </li>
+      </ul>
+    </div>
+
+  </footer>
 </body>
 
 </html>
