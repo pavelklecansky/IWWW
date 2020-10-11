@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    body{
+    body {
       margin: 0;
-
+      font-family: Arial, Helvetica, sans-serif;
     }
+
     #menu {
       background-color: dimgray;
       display: flex;
@@ -23,6 +24,33 @@
       margin-right: 20px;
     }
 
+    .button {
+      background-color: dimgray;
+      color: white;
+      padding: 20px;
+      width: 200px;
+      border-radius: 5px;
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+      margin: auto;
+      border: 1px solid white;
+    }
+
+    .pageHeading {
+      font-size: 100px;
+      margin: 0;
+      padding-top: 200px;
+      color: white;
+      text-shadow: 0px 0px 10px black;
+    }
+
+    #hero {
+      text-align: center;
+      background-image: url("img/karlovy-vary.jpg");
+      height: 500px;
+      background-size: cover;
+    }
   </style>
 </head>
 
@@ -38,6 +66,12 @@
     </nav>
   </div>
 
+  <section id="hero">
+    <h1 class="pageHeading">Cestovatelský blog</h1>
+    <div class="button">
+      Chci taky cestovat
+    </div>
+  </section>
 </body>
 
 </html>
